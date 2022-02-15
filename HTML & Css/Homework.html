@@ -6,39 +6,72 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+        
+        <head>
+            <title>My Portofilio</title>
+        </head>
     
-    <div class="Pocetni naslov">
-            <h1>Welcome to my personal page</h1>
+        <div class="background-image">
+            <style>
+                 * {
+                      margin: 0;
+                      padding: 0;
+                  }
+               .background-image 
+                {
+                
+
+                    background-image: url(./Pics/sand.png);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    
+                    height: 100vh;
+
+                }
+            </style>
+
+        </div>
+        
+        
+        
+        <div class="Pocetni naslov">
+            <h1 style="color: peru;">Welcome to my personal page</h1>
         <h2>Let's Begin </h2>
     </div>
 
-    <head>
-        <title>My Portofilio</title>
-    </head>
-
-    <body>
+    <body
+    >
         <h3>About me</h3>
         <p>I am Ahmed Susterac.I was raised and born in Serbia.I am student of IT.</p>
-            <p>Currently learning HTML,even while i am writing this.</p>
+            <p>Currently learning HTML,even while i'am writing this.</p>
 
         <h3>This is me</h3>
-            <a href="https://www.instagram.com/susteraac/" target="_blank">
-        <img src="img/amx.jpg" height="200px" width="200px" alt="">
-            </a>
+            
+        <img src="Pics/ahmed.jpg" height="200px" width="200px" alt="Photo of me"></a>
     
     <h3>My Project's</h3>
         <ul>
-        <li><a href="https://github.com/amx100/classes/tree/main/HTML%20%26%20Css" target="_blank">Project 1</a></li>
-     <br>
-    <li>
-        <a href="https://www.linkedin.com/in/ahmed-s-89a8081a5/" target="_blank">Project 2</a>
-    </li>
+             <li>
+                 <a href="https://github.com/amx100/classes" style="color: peru;" target="_blank">Project 1</a>
+            </li>
         </ul>
-</body>
+     
+   
+     <p>Find more about my life on</p>
+     <ul>
+         <li>
+           <a href="https://www.instagram.com/susteraac/" style="color: peru;" target="_blank">Instagram</a>
+         </li>
+    </ul>   
+        
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/ahmed-s-89a8081a5/" style="color: peru" target="_blank">Linkedin</a>
+             </li>
+        </ul>   
 
-<body>
+        
     <form action="" method="">
     <p>Enter your Personal information:</p>
    
@@ -49,25 +82,31 @@
     <br>
   
     <label for="password">Your Password</label>
-    <input type="password" placeholder="your password" name="" id="">
+    <input type="password" placeholder="password" name="" id="">
     <br>
     <br>
    
-    <label for="email">Your Email</label>
-    <input type="email" placeholder="your email"
+    <label for="email">Your Mail</label>
+    <input type="email" placeholder="example@gmail.com"
     name="" id="">
     <br>
     
     <input type="submit">
     <br> 
 
-    <p>Please rate how you liked the look of the page</p>
-
-<input type="radio" name="ime" id="" value="odlicno"> Excilent (7-10)
-<input type="radio" name="ime" id="" value="solidno"> Solid (4-6)
-<input type="radio" name="ime" id="" value="notsatisfied"> Not impressed (0-3)
+    
+    <p>Please rate how did you liked the look of our page.</p>
+    <input type="radio" name="ime" id="" value="odlicno"> Excilent (7-10)
+    <input type="radio" name="ime" id="" value="solidno"> Solid (4-6)
+    <input type="radio" name="ime" id="" value="notsatisfied"> Not impressed (0-3)
 <br>
-<input type="submit">
+    <input type="submit">   
+    <br>
+    <p style="font-size: 0.5cm;">Tell us more about what you think of the site.</p>
+            <textarea name="Description" placeholder="Add praise or appeal" id="" cols="30" rows="10"></textarea>
+        </table>
+<br>
+        <a href="Homework.html" style="color: black;">Home page</a>
 
 </form>       
 </body>
