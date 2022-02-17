@@ -1,0 +1,27 @@
+body {
+  /* background-image: url(https://weaponsandwarfare.files.wordpress.com/2018/06/depositphotos_41850141-stock-photo-sand-color-background-or-texture4.jpg); */
+  background-color: rgba(165, 38, 0, 0.466);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hpage {
+  font-size: 21px;
+  color: black;
+}
+#linkendin {
+  color: rgb(0, 255, 157);
+}
+
+#insta {
+  color: rgb(0, 255, 157);
+}
+
+#projekat {
+  color: rgb(0, 255, 157);
+}
+
+#welcome {
+  color: rgb(0, 255, 157);
+  background: rgba(165, 38, 0, 0.466);
+}
