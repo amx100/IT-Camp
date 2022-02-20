@@ -1,25 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: rgb(245, 105, 62);
+  background-color: rgb(0, 162, 255);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #hpage {
   font-size: 21px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 #linkendin {
-  color: rgb(0, 255, 157);
+  color: rgb(255, 255, 255);
 }
 
 #insta {
-  color: rgb(0, 255, 157);
+  color: rgb(255, 255, 255);
 }
 
 #projekat {
-  color: rgb(0, 255, 157);
+  color: rgb(255, 255, 255);
 }
 
 #welcome {
-  color: rgb(0, 255, 157);
+  color: rgb(255, 255, 255);
+}
+
+#tellus {
+  font-size: 0.5cm;
+}
+
+#fax {
+  color: rgb(255, 255, 255);
+}
+#srednjaskola {
+  color: rgb(255, 255, 255);
+}
+#kurs {
+  color: rgb(255, 255, 255);
+}
+
+#skola {
+  font-size: 20px;
+}
+
+#find {
+  font-size: 17px;
 }
