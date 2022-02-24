@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#Contacts {
+  height: auto;
+  width: 100vh;
+}
+
+.AMD {
+  height: auto;
+  width: 100vh;
+}
+
+.forma {
+  height: auto;
+  width: 100vh;
+}
+
+#tellus {
+  font-size: 0.5cm;
+}

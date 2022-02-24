@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head></head>
+  <head>
+    <link rel="stylesheet" href="form.css" />
+  </head>
   <body>
     <h1>Welcome to my page</h1>
 
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
     <img
       src="https://www.jdrf.org/norcal/wp-content/uploads/sites/95/2017/10/news.jpg"
       width="100%"
@@ -17,16 +14,19 @@
     />
     <br />
 
-    <nav>
+    <nav id="Contacts">
       <label for=""
         >If u have any sugestion's,praise or appeal contact me on:</label
       >
       <ul>
         <li><a href="#Email">Email</a></li>
+        <li>
+          <a href="www.instagram.com/susteraac" target="_blank">Instagram</a>
+        </li>
       </ul>
     </nav>
 
-    <section id="AMD">
+    <section class="AMD">
       <h2>
         AMD could have a few RX 6000 GPUs incoming to take on Nvidia (and Intel)
       </h2>
@@ -53,7 +53,7 @@
       <br />
     </section>
 
-    <section id="forma">
+    <section class="forma">
       <label for="name">First Name</label>
       <input type="text" name="name" id="name" />
       <br />
@@ -70,9 +70,7 @@
       <br />
 
       <br />
-      <p style="font-size: 0.5cm">
-        Tell us more about what you think of the site.
-      </p>
+      <p id="tellus">Tell us more about what you think of the site.</p>
       <textarea
         name="Description"
         placeholder="Add praise or appeal"

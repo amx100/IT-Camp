@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+#container {
+  width: auto;
+  height: 100vh;
+  font-size: 0px;
+}
+
+.cell {
+  width: 25%;
+  height: 23%;
+  display: inline-block;
+  font-size: 10rem;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
