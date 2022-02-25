@@ -3,18 +3,18 @@ html {
 }
 
 #Contacts {
-  height: auto;
-  width: 100px;
+  height: 100px;
+  width: auto;
 }
 
 .AMD {
-  height: auto;
-  width: 100vh;
+  height: 50vh;
+  width: auto;
 }
 
 .forma {
-  height: auto;
-  width: 100vh;
+  height: 50vh;
+  width: auto;
 }
 
 #tellus {
