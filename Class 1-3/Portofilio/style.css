@@ -44,12 +44,14 @@ body {
 #gmejl,
 #linkedin,
 #insta {
-  padding-top: 5px;
-  padding-bottom: 7px;
+  padding-top: 9px;
+  padding-bottom: 3px;
   padding-right: 8px;
   background-color: #0072bb;
   text-decoration: none;
   text-align: right;
+  width: auto;
+  height: 27px;
 }
 
 #slikamene {
@@ -67,4 +69,14 @@ body {
 #omeni1,
 #omeni2 {
   text-align: center;
+}
+
+#logo {
+  padding-bottom: 6%;
+  width: 27px;
+  height: 27px;
+  display: block;
+  padding-left: 1%;
+  position: absolute;
+  margin: 0px auto;
 }
