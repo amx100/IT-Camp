@@ -8,6 +8,7 @@ body {
 #welcome {
   color: #0072bb;
   text-align: center;
+  font-family: monospace;
 }
 
 #insta,
@@ -16,13 +17,52 @@ body {
   color: rgba(255, 255, 255, 0.698);
 }
 
-#projekat {
+#giticon {
   color: rgba(0, 0, 0, 0.698);
+
+  padding-left: 2%;
+}
+button {
+  background-color: rgba(191, 222, 245, 0.76);
+}
+
+#edu {
+  display: inline-block;
+  border: 2px solid #0072bb;
+  width: 25%;
+  height: 200px;
+  border-radius: 9%;
+}
+
+/* dodaj font za h3naslov */
+#naslovzaprojekat {
+  padding-left: 2.5%;
+  color: #0072bb;
+  font-size: 18px;
+  font-family: monospace;
+}
+#shorttext {
+  padding-left: 2%;
+}
+.gitclick {
+  padding-left: 2.5%;
   text-decoration: none;
+  color: #0072bb;
+}
+
+#pocetnidiv {
+  display: inline-block;
+  border: 2px solid #0072bb;
+  width: 25%;
+  height: 200px;
+  border-radius: 9%;
 }
 
 #institucija {
-  font-size: 20px;
+  padding-left: 2.5%;
+  font-size: 17px;
+  font-family: monospace;
+  color: #0072bb;
 }
 #fax,
 #srednjaskola,
