@@ -1,0 +1,20 @@
+#nav {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 140, 255);
+  float: left;
+  margin: 20px;
+}
+#floatright {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 140, 255);
+  float: right;
+  margin: 2px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+}
