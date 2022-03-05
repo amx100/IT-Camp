@@ -1,0 +1,51 @@
+#form {
+  background-color: rgba(224, 224, 224, 0.699);
+  float: right;
+  margin-right: 75px;
+  margin-top: 150px;
+}
+
+#text {
+  position: absolute;
+  top: 50px;
+  font-size: large;
+}
+
+#text2 {
+  position: absolute;
+  top: 100px;
+}
+
+#sgn {
+  margin-left: 20px;
+}
+
+#emailbox {
+  width: 75px;
+  height: 75px;
+}
+
+#fullname {
+  margin-left: 20px;
+}
+#textbox {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#mejl {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#mejl1 {
+  margin-left: 20px;
+}
+
+#button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#graytext {
+  margin-left: 22px;
+  margin-right: 20px;
+}
