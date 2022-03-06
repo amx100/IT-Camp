@@ -1,12 +1,12 @@
 body {
-  background-color: #e5e5e5;
+  background-color: rgba(0, 0, 0, 0.95) /* #4a4a48 */;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #welcome {
-  color: #0072bb;
+  color: #13c4a3;
   text-align: center;
   font-family: monospace;
 }
@@ -28,7 +28,7 @@ button {
 
 #edu {
   display: inline-block;
-  border: 2px solid #0072bb;
+  border: 2px solid #20c997; /* #13c4a3; */
   width: 25%;
   height: 200px;
   border-radius: 9%;
@@ -37,7 +37,7 @@ button {
 /* dodaj font za h3naslov */
 #naslovzaprojekat {
   padding-left: 2.5%;
-  color: #0072bb;
+  color: #20c997;
   font-size: 18px;
   font-family: monospace;
 }
@@ -47,12 +47,12 @@ button {
 .gitclick {
   padding-left: 2.5%;
   text-decoration: none;
-  color: #0072bb;
+  color: #20c997;
 }
 
 #pocetnidiv {
   display: inline-block;
-  border: 2px solid #0072bb;
+  border: 2px solid #20c997;
   width: 25%;
   height: 200px;
   border-radius: 9%;
@@ -77,7 +77,7 @@ button {
 
 #bottompage {
   font-size: 21px;
-  color: #0072bb;
+  color: #20c997;
 }
 
 #navigation,
@@ -87,11 +87,11 @@ button {
   padding-top: 9px;
   padding-bottom: 3px;
   padding-right: 8px;
-  background-color: #0072bb;
+  background-color: #20c997;
   text-decoration: none;
   text-align: right;
   width: auto;
-  height: 27px;
+  height: 55px;
 }
 
 #slikamene {
@@ -104,11 +104,13 @@ button {
 
 #aboutme {
   padding-top: 5%;
+  color: #20c997;
   text-align: center;
 }
 #omeni1,
 #omeni2 {
   text-align: center;
+  color: #20c997;
 }
 
 #logo {
@@ -120,3 +122,54 @@ button {
   position: absolute;
   margin: 0px auto;
 }
+/* -----CSS FOR DIV FORM----- 
+-----------------------------
+-----------------------------*/
+#form {
+  background-color: rgba(143, 143, 143, 0.486);
+  width: 22%;
+  height: 250px;
+}
+
+#mejll {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#number {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#button1 {
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+#sign {
+  font-size: 22px;
+  margin-left: 55px;
+  margin-top: 7px;
+}
+
+#emailbox {
+  width: 75px;
+  height: 75px;
+}
+
+#fullname {
+  margin-left: 20px;
+}
+#textbox {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#mailbox {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#mailforform {
+  margin-left: 20px;
+}
+/* -----CSS FOR DIV FORM----- 
+-----------------------------
+-----------------------------*/
