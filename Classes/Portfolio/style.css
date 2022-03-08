@@ -80,7 +80,7 @@ button {
   color: #20c997;
 }
 
-#navigation,
+.navigation,
 #gmejl,
 #linkedin,
 #insta {
@@ -173,3 +173,56 @@ button {
 /* -----CSS FOR DIV FORM----- 
 -----------------------------
 -----------------------------*/
+
+.content-wrapper {
+  width: 80%;
+  margin: 4% 10% 5% 10%;
+}
+.content-wrapper img {
+  width: 100%;
+  height: 200%;
+  overflow: hidden;
+}
+.razmak {
+  width: 100%;
+  height: 150px;
+}
+
+.con-wrp {
+  width: 80%;
+  margin: 4% 10% 5% 10%;
+}
+.con-wrp img {
+  width: 100%;
+  height: 200%;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+}
+
+.text-wrapper h2 {
+  text-align: center;
+  font-family: monospace;
+  color: #20c997;
+  font-size: 26px;
+  border: 2px solid #20c997;
+  border-radius: 15%;
+  position: relative;
+  height: 32px;
+  width: 120px;
+  margin-bottom: auto;
+  margin-top: 120px;
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+#texturazmaku {
+  text-align: center;
+  color: #20c997;
+  margin-top: 520px;
+  margin-left: 5%;
+  margin-right: auto;
+}

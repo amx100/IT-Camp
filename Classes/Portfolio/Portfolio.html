@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="restyle.css" />
     <title>My Portofilio</title>
   </head>
   <body>
-    <nav id="navigation">
-      <img id="logo" src="/Classes/Pictures/logo1.png" alt="logo" />
+    <section id="navbar">
+      <div class="navigation">
+        <a id="gmejl" href="#mejll">Email</a>
 
-      <a id="gmejl" href="#mejll">Email</a>
+        <a
+          href="https://www.instagram.com/susteraac/"
+          id="insta"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.linkedin.com/in/ahmed-s-89a8081a5/"
+          id="linkedin"
+          target="_blank"
+          >Linkedin</a
+        >
+      </div>
+    </section>
 
-      <a href="https://www.instagram.com/susteraac/" id="insta" target="_blank"
-        >Instagram</a
-      >
-      <a
-        href="https://www.linkedin.com/in/ahmed-s-89a8081a5/"
-        id="linkedin"
-        target="_blank"
-        >Linkedin</a
-      >
-    </nav>
-
-    <div class="startpage">
-      <h1 id="welcome">Let's Begin</h1>
+    <div class="con-wrp">
+      <img src="/Classes/Pictures/mac.jpg" alt="" />
     </div>
 
     <h3 id="aboutme">About me</h3>
@@ -72,17 +75,17 @@
 
     <div id="pocetnidiv">
       <p id="naslovzaprojekat">My Project's</p>
-      
-        <img id="giticon"
-          src="http://cdn.onlinewebfonts.com/svg/img_326384.png"
-          width="30px"
-          height="30px"
-          alt=""
-      /></a>
-      <p id="shorttext">
-        Here you can find more about my achievement's and what did i accomplish
-        with knowledge i have about programming
-      </p>
+
+      <img
+        id="giticon"
+        src="http://cdn.onlinewebfonts.com/svg/img_326384.png"
+        width="30px"
+        height="30px"
+        alt=""
+        id="shorttext"
+      />
+      Here you can find more about my achievement's and what did i accomplish
+      with knowledge i have about programming
 
       <a
         href="https://github.com/amx100/classes"
@@ -95,35 +98,23 @@
     <br />
     <br />
 
-    <section id="formular">
-      <p>Email me if u have a job offer:</p>
-      <label for="name">Name</label>
-      <input type="text" placeholder="Enter Your name" name="name" id="name" />
+    <div id="form">
+      <p id="sign">Contact me if u have a job offer</p>
+      <label for="Full Name" id="fullname">Full Name</label>
       <br />
-
-      <label for="email" id="mejll">Email *</label>
-      <input type="email" placeholder="Enter your email" name="" required />
-      <label for="number">Phone</label>
-      <input type="text" placeholder="Enter your phone number" />
+      <input type="text" style="width: 350px; height: 25px" id="textbox" />
       <br />
       <br />
-      <label for="subject">Subject</label>
+      <label for="email" id="mailforform">Email</label>
       <br />
-      <input type="text" placeholder="Type the subject" />
-
-      <p id="tellus">Message</p>
-      <textarea
-        name="Description"
-        placeholder="Type your message"
-        cols="30"
-        rows="10"
-      ></textarea>
+      <input type="email" style="width: 350px; height: 25px" id="mailbox" />
       <br />
-
-      <input type="submit" />
-    </section>
-    <br />
-    <br />
-    <a href="Portfolio.html" id="bottompage">Home</a>
+      <br />
+      <input type="submit" id="button1" style="width: 350px; height: 45px" />
+      <br />
+      <br />
+      <br />
+      <a href="Portfolio.html" id="bottompage">Home</a>
+    </div>
   </body>
 </html>
