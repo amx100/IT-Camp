@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*    FIRST PAGE
+--------------------
+-------------------- */
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/Classes/Pictures/forest.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#logospan {
+  color: #04aa78;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #04aa78;
+  transition: 0.4s;
+}
+
+.content h1 {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  transform: translateY(-50%);
+}
+
+#hello {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 70px;
+}
+#iam {
+  color: #04aa78;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  position: absolute;
+  top: 43%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+/*    FIRST PAGE 
+END END END END END ENd
+--------------------
+-------------------- */
+
+/*    SCROLL BUTTON
+BEGINING BEGINING BEGINING BEGINING
+   ----------------------
+   ----------------------  */
+
+.scroll-down {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mouse {
+  width: 2.5rem;
+  height: 5rem;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.mouse span {
+  width: 1rem;
+  height: 1rem;
+  background-color: #fff;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 1.6s linear infinite;
+}
+
+.arrow span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-right-color: 2px solid #fff;
+  border-bottom-color: #fff;
+  border: 2px solid transparent;
+  transform: rotate(45deg);
+  animation: arrow-down 5s alternate infinite;
+}
+
+@keyframes move-wheel {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*    SCROLL BUTTON END END END
+     ----------------------
+     ----------------------  */
+
+/*------------------SECOND PAGE---------------
+BEGINING  BEGINING BEGINING BEGINING BEGINING
+ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+
+.about {
+  width: 100%;
+  height: 990px;
+
+  background-color: rgba(130, 116, 77, 255);
+}
+.about img {
+  height: auto;
+  width: 430px;
+  margin-top: 14%;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 55px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: #004732;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+.about-text p span {
+  font-weight: 700;
+}
+
+button {
+  background-color: #004732;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #004732;
+  cursor: pointer;
+}
+
+/* SECOND PAGE END END END
+ABOUT ABOUT ABOUT ABOUT ABOUT
+-------------------------- */
+
+/* BEGINING OF THIRD PAGE
+PROJECTS PROJECTS PROJECTS
+  BEGINING BEGINING BEGINING
+  ---------------------------*/
+.service {
+  background-image: url(/Classes/Pictures/forest2.jpg);
+  width: 100%;
+  height: 1047px;
+}
+
+.title {
+  color: #004732;
+  font-size: 35px;
+  width: 1130px;
+  margin-left: 21%;
+  padding-top: 110px;
+  text-align: center;
+  opacity: 70%;
+}
+
+.box {
+  min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 120px;
+}
+
+.card {
+  height: 300px;
+  width: 90%;
+  padding: 20px 35px;
+  background-color: rgba(161, 172, 176, 255);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 85%;
+}
+
+.card h5 {
+  color: #fff;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.pra p {
+  color: #004732;
+  font-size: 19px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+.card .button {
+  background-color: #004732;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+  margin-bottom: 100px;
+}
+
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid #004732;
+  cursor: pointer;
+}
+
+.htmlid {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.cssid {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+/*   END OF THIRD PAGE PROJECTS
+PROJECTS PROJECTS PROJECTS 
+---END END END END END END END 
+------------------------- */
+
+.education-container {
+  width: 100%;
+  height: 550px;
+  background-color: rgba(161, 172, 176, 255);
+}
+
+.header {
+  min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.fronttitle h1 {
+  color: #004732;
+  font-size: 35px;
+  width: 1130px;
+  margin-left: 21%;
+  padding-top: 20px;
+  text-align: center;
+  opacity: 70%;
+}
+.fronttitle p {
+  color: #004732;
+  font-size: 35px;
+  width: 1130px;
+  margin-left: 21%;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.unicard {
+  height: 150px;
+  width: 35%;
+  padding: 20px 35px;
+  background-color: rgba(29, 53, 65, 255);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 85%;
+}
+.unicard h3 {
+  font-size: 22px;
+  color: #fff;
+}
+.unicard h4 {
+  color: #fff;
+}
+.highcard h3 {
+  font-size: 22px;
+  color: #fff;
+}
+.highcard h4 {
+  color: #fff;
+}
+.coursecard h3 {
+  font-size: 22px;
+  color: #fff;
+}
+.coursecard h4 {
+  color: #fff;
+}
+
+.highcard {
+  height: 150px;
+  width: 35%;
+  padding: 20px 35px;
+  background-color: rgba(29, 53, 65, 255);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 85%;
+}
+
+.coursecard {
+  height: 150px;
+  width: 35%;
+  padding: 20px 35px;
+  background-color: rgba(29, 53, 65, 255);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 85%;
+}
+
+.unicard .button23 {
+  background-color: #fff;
+  color: rgba(29, 53, 65, 255);
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.highcard .button23 {
+  background-color: #fff;
+  color: rgba(29, 53, 65, 255);
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.coursecard .button23 {
+  background-color: #fff;
+  color: rgba(29, 53, 65, 255);
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+  margin-top: 20px;
+}
+
+.unicard .button23 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.highcard .button23 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.coursecard .button23 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
