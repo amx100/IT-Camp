@@ -60,6 +60,29 @@ nav ul li a:hover {
   transform: translateY(-50%);
 }
 
+#insta {
+  height: 27px;
+  width: 27px;
+  position: absolute;
+  top: 47%;
+  left: 49%;
+  transform: translateY(-50%);
+  margin-bottom: 40px;
+  /* background-color: black; */
+  opacity: 80%;
+}
+#linkendin {
+  height: 27px;
+  width: 27px;
+  position: absolute;
+  top: 47%;
+  left: 52%;
+  transform: translateY(-50%);
+  margin-bottom: 40px;
+  background-color: black;
+  opacity: 50%;
+}
+
 #hello {
   color: white;
   margin: 20px 0px 20px;
@@ -89,7 +112,7 @@ BEGINING BEGINING BEGINING BEGINING
 .scroll-down {
   position: absolute;
   bottom: 1rem;
-  left: 50%;
+  left: 51.8%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
@@ -165,19 +188,21 @@ ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
 .about {
   width: 100%;
   height: 1000px;
-
   background-color: rgba(130, 116, 77, 255);
 }
-.about img {
+.about .picofme {
   height: auto;
   width: 430px;
-  margin-top: 14%;
+  margin-top: 10%;
 }
 
 .about-text {
-  width: 550px;
+  width: 900px;
+  padding-left: 15px;
 }
-
+.main #about1 {
+  padding-top: 140px;
+}
 .main {
   width: 1130px;
   max-width: 95%;
@@ -187,14 +212,14 @@ ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
   justify-content: space-around;
 }
 
-.about-text h2 {
+.main .about-text h2 {
   color: white;
   font-size: 55px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 
-.about-text h5 {
+.main .about-text h5 {
   color: #fff;
   font-size: 22px;
   letter-spacing: 2px;
@@ -202,7 +227,7 @@ ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
   text-transform: capitalize;
 }
 
-.about-text p {
+.main .about-text p {
   color: #004732;
   font-size: 18px;
   font-weight: bold;
@@ -210,7 +235,7 @@ ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
   line-height: 28px;
   margin-bottom: 45px;
 }
-.about-text p span {
+.main .about-text p span {
   font-weight: 700;
 }
 
@@ -331,7 +356,7 @@ PROJECTS PROJECTS PROJECTS
 .education-container {
   width: 100%;
   height: 550px;
-  background-color: rgba(161, 172, 176, 255);
+  background-color: #fff;
 }
 
 .header {
@@ -357,19 +382,100 @@ PROJECTS PROJECTS PROJECTS
   margin-left: 21%;
   padding-top: 25px;
   text-align: center;
+  opacity: 80%;
 }
 
 .unicard {
-  height: 150px;
-  width: 35%;
-  padding: 20px 35px;
-  background-color: rgba(29, 53, 65, 255);
+  height: 170px;
+  width: 30%;
+  padding: 20px 72px;
+  background-color: #004732;
   border-radius: 20px;
   margin: 15px;
   position: relative;
   overflow: hidden;
   text-align: center;
   opacity: 85%;
+}
+
+.highcard {
+  height: 170px;
+  width: 30%;
+  padding: 20px 72px;
+  background-color: #004732;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 85%;
+}
+
+.coursecard {
+  height: 170px;
+  width: 30%;
+  padding: 20px 72px;
+  background-color: #004732;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  opacity: 85%;
+}
+
+.unicard .button23 {
+  background-color: #fff;
+  color: #004732;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.highcard .button23 {
+  background-color: #fff;
+  color: #004732;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.coursecard .button23 {
+  background-color: #fff;
+  color: #004732;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 1s;
+  margin-top: 20px;
+}
+
+.unicard .button23 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.highcard .button23 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.coursecard .button23 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
 }
 .unicard h3 {
   font-size: 22px;
@@ -394,81 +500,94 @@ PROJECTS PROJECTS PROJECTS
 }
 
 .highcard {
-  height: 150px;
-  width: 35%;
-  padding: 20px 35px;
-  background-color: rgba(29, 53, 65, 255);
-  border-radius: 20px;
-  margin: 15px;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  opacity: 85%;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
 }
-
+.unicard {
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
 .coursecard {
-  height: 150px;
-  width: 35%;
-  padding: 20px 35px;
-  background-color: rgba(29, 53, 65, 255);
-  border-radius: 20px;
-  margin: 15px;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* END OF PAGE EDUCATION */
+
+/* Contact me page */
+
+.contact {
   position: relative;
-  overflow: hidden;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #004732;
+  background-size: cover;
+}
+.contact .content {
+  max-width: 800vh;
   text-align: center;
-  opacity: 85%;
 }
 
-.unicard .button23 {
-  background-color: #fff;
-  color: rgba(29, 53, 65, 255);
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 13px 30px;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: 1s;
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+.contact .content p {
+  font-weight: 500;
+  color: #fff;
 }
 
-.highcard .button23 {
-  background-color: #fff;
-  color: rgba(29, 53, 65, 255);
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 13px 30px;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: 1s;
-}
-
-.coursecard .button23 {
-  background-color: #fff;
-  color: rgba(29, 53, 65, 255);
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 13px 30px;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: 1s;
-  margin-top: 20px;
-}
-
-.unicard .button23 {
-  align-items: center;
-  justify-content: center;
+.container {
+  width: 100%;
   display: flex;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.highcard .button23 {
-  align-items: center;
-  justify-content: center;
+.container .contactInfo {
+  width: 50%;
   display: flex;
-  margin-top: 20px;
+  flex-direction: column;
 }
-.coursecard .button23 {
-  align-items: center;
-  justify-content: center;
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0px;
   display: flex;
-  margin-top: 20px;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300px;
+}
+.container .contactInfo .box .text h3 {
+  font-weight: 300;
+  color: #00bcd4;
+}
+
+.contactForm {
+  width: 40%;
+  pad: 40px;
+  background: #fff;
+}
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
 }
