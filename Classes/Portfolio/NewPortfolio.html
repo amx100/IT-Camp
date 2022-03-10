@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="restyling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section id="Navigation bar">
@@ -13,11 +19,11 @@
         <nav>
           <h2 class="logo"><span id="logospan"> &#8249;A&#8250;</span></h2>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="NewPortfolio.html">Home</a></li>
             <li><a href="#about1">About</a></li>
             <li><a href="#pro">Project's</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -161,37 +167,69 @@
 
     <section class="contact">
       <div class="content">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <h2 id="contact">Contact Us</h2>
+        <p>Let Me Make You A Beautiful Site.</p>
       </div>
       <div class="container">
         <div class="contactInfo">
           <div class="box1">
-            <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+            <div class="icon">
+              <svg
+                class="adressicon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  d="M384 476.1L192 421.2V35.93L384 90.79V476.1zM416 
+                88.37L543.1 37.53C558.9 31.23 576 42.84 576 59.82V394.6C576 404.4 570 413.2 560.9 416.9L416 474.8V88.37zM15.09 
+                95.13L160 37.17V423.6L32.91 474.5C17.15 480.8 0 469.2 0 452.2V117.4C0 107.6 5.975 98.78 15.09 95.13V95.13z"
+                />
+              </svg>
+            </div>
             <div class="text"></div>
             <h3>Address</h3>
-            <p>
-              Osmana Dervišnurovića <br />
-              33 <br />
-              Novi Pazar <br />36300
-            </p>
+            <p>Osmana Dervišnurovića 33 Novi Pazar 36300</p>
           </div>
+          <br />
           <div class="box1">
             <div class="icon">
-              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <svg
+                class="phoneicon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M511.2 387l-23.25 100.8c-3.266 
+                14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 
+                24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 
+                108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 
+                159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                />
+              </svg>
             </div>
             <div class="text"></div>
             <h3>Phone</h3>
             <p>062/150-8636</p>
           </div>
+          <br />
           <div class="box1">
             <div class="icon">
-              <i
-                style="width: 30px; height: 30px"
-                class="fa fa-envelope-o"
-                aria-hidden="true"
-              ></i>
+              <svg
+                class="mailicon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M493.6 163c-24.88-19.62-45.5-35.37-164.3-121.6C312.7 
+                29.21 279.7 0 256.4 0H255.6C232.3 0 199.3 29.21 182.6 41.38c-118.8 86.25-139.4 101.1-164.3 121.6C6.75 172 0 186 0 200.8v263.2C0
+                 490.5 21.49 512 48 512h416c26.51 0 48-21.49 48-47.1V200.8C512 186 505.3 172 493.6 163zM303.2 367.5C289.1 378.5 272.5 384 256 
+                 384s-33.06-5.484-47.16-16.47L64 254.9V208.5c21.16-16.59 46.48-35.66 156.4-115.5c3.18-2.328 6.891-5.187 10.98-8.353C236.9 80.44 
+                 247.8 71.97 256 66.84c8.207 5.131 19.14 13.6 24.61 
+                17.84c4.09 3.166 7.801 6.027 11.15 8.478C400.9 172.5 426.6 191.7 448 208.5v46.32L303.2 367.5z"
+                />
+              </svg>
             </div>
+            <br />
             <div class="text"></div>
             <h3>Email</h3>
             <p>amx281@gmail.com</p>
@@ -199,24 +237,37 @@
         </div>
         <div class="contactForm">
           <form>
-            <h2>Send Message</h2>
+            <h2 class="sendmessage">Send Message</h2>
             <div class="inputBox">
-              <input type="text" name="" required />
-              <span>Full Name</span>
+              <input
+                id="fullname"
+                type="text"
+                name=""
+                placeholder="Full Name"
+                required
+              />
+              <span></span>
             </div>
+
             <div class="inputBox">
-              <input type="text" name="" required />
-              <span>Email</span>
+              <input
+                id="fullemail"
+                type="text"
+                name=""
+                placeholder="Email"
+                required
+              />
             </div>
             <div class="inputBox">
               <textarea
+                id="fullmessage"
                 name=""
                 required="required"
                 id=""
                 cols="30"
                 rows="10"
+                placeholder="Type your Message"
               ></textarea>
-              <span>Type your Message</span>
             </div>
             <div class="inputBox">
               <textarea
