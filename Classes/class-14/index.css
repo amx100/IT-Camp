@@ -1,0 +1,15 @@
+.container {
+  width: 350px;
+  height: auto;
+  background-color: gray;
+}
+.card {
+  text-align: left;
+
+  border: 2px solid black;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+}
