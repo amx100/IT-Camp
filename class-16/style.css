@@ -1,0 +1,12 @@
+.gridContainer {
+  display: grid;
+  grid-template-rows: 100px 60px 200px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+#head {
+  background-color: red;
+  height: 40px;
+  padding: 10px;
+}
