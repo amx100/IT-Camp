@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevFolio</title>
+
+    <!-- typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- scroll to top button -->
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- navbar code start here -->
+    <nav class="navbar" id="navbar">
+      <div class="logo">
+        <a href="#home">DevFolio</a>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="#home" onclick="menu()">Home</a></li>
+        <li><a href="#about" onclick="menu()">About</a></li>
+        <li><a href="#services" onclick="menu()">Services</a></li>
+        <li><a href="#portfolio" onclick="menu()">PortFolio</a></li>
+        <li><a href="#blog" onclick="menu()">Blog</a></li>
+        <li><a href="#contact" onclick="menu()">Contact</a></li>
+      </ul>
+      <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <!-- home section start here -->
+    <div class="home" id="home">
+      <div class="home-content">
+        <h1 class="name">I am Morgan Freeman</h1>
+        <p><span class="typing"></span></p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
