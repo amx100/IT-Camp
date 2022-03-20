@@ -172,3 +172,121 @@ body {
 .home .home-content span {
   font-size: 45px;
 }
+
+.about-content {
+  background: white;
+  width: 100%;
+  padding: 2.5rem 3rem;
+  display: flex;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 /6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.about-content .info {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content .info .personal {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.about-content .info .personal .photo {
+  width: 40%;
+  display: flex;
+}
+
+.about-content .info .personal .photo img {
+  border-radius: 5px;
+}
+
+.about-content .info .personal .name {
+  align-items: flex-start;
+  width: 60%;
+}
+
+.about-content .info .personal .name p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.about-content .info .personal .name p span {
+  font-weight: 600;
+}
+
+.about-content .info .skills {
+  margin-top: 25px;
+}
+
+.about-content .info .skills h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-content .info .skills .skill {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content .info .skills .progress-line {
+  margin-top: 10px;
+  height: 8px;
+  width: 100%;
+  background: #cde1f8;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.about-content .info .skills .progress-line span {
+  position: absolute;
+  height: 100%;
+  background: #0078ff;
+}
+
+.about-content .info .skills .progress-line .html {
+  width: 85%;
+}
+
+.about-content .info .skills .progress-line .css {
+  width: 75%;
+}
+
+.about-content .info .skills .progress-line .javascript {
+  width: 90%;
+}
+
+.about-content .info .skills .progress-line .php {
+  width: 50%;
+}
+
+.about-content .aboutme {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.about-content .aboutme h5 {
+  font-size: 2rem;
+  position: relative;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.about-content .aboutme h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 80px;
+  height: 4px;
+  background: #0078ff;
+}
+
+.about-content .aboutme p {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
