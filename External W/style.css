@@ -26,7 +26,7 @@ body {
   background: #f5f5f5;
 }
 
-/* title */
+/* title section styling */
 .title {
   width: 100%;
   text-align: center;
@@ -45,12 +45,12 @@ body {
 
 .menu-btn {
   color: white;
-  font-size: 23px;
+  font-size: 24px;
   cursor: pointer;
   display: none;
 }
 
-/* scroll button styling */
+/* scroll button section styling */
 .scrollbtn {
   height: 40px;
   width: 40px;
@@ -73,14 +73,14 @@ body {
   color: white;
 }
 
-/* navbar styling */
+/* navbar section styling */
 .navbar {
   position: fixed;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 8rem;
+  padding: 2rem 24rem;
   z-index: 500;
   transition: 0.4s;
 }
@@ -92,7 +92,7 @@ body {
   background: rgb(0, 0, 0);
   opacity: 80%;
   color: #ffffff;
-  padding: 1.1rem 8rem;
+  padding: 1.1rem 24rem;
   box-shadow: 0px 6px 9px 0px rgb(0 0 0 /6%);
 }
 
@@ -117,7 +117,7 @@ body {
 .navbar .menu li a {
   display: block;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   color: white;
 }
@@ -145,7 +145,7 @@ body {
   width: 35px;
 }
 
-/* home styling */
+/* home section styling */
 .home {
   position: relative;
   left: 0;
@@ -176,7 +176,7 @@ body {
   font-size: 45px;
 }
 
-/* section about styling */
+/* about section styling */
 .about-content {
   background: white;
   width: 100%;
@@ -361,7 +361,7 @@ body {
   color: black;
 }
 
-/* .counter-section  */
+/* counter-section styling  */
 .counters {
   width: 100%;
   height: 433px;
@@ -369,18 +369,19 @@ body {
   left: 0;
   top: 0;
   background: linear-gradient(#0077ff9a, #0077ff9a),
-    url(/Classes/Pictures/counters-bg.jpg) center center/cover no-repeat;
+    url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/counters-bg.jpg)
+      center center/cover no-repeat;
   background-attachment: fixed;
   color: white;
 }
 
-.containeer {
+.container-c {
   max-width: 1140;
   margin: 0 auto;
   overflow: auto;
 }
 
-.counters .containeer {
+.counters .container-c {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
@@ -401,4 +402,275 @@ body {
 
 .counters .counter {
   font-size: 34px;
+}
+
+/* portfolio section styling */
+.portfolio-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolio-content .card {
+  width: 359px;
+
+  background: white;
+  box-shadow: 0px 13 8px -10px rgb(0 0 0 / 10%);
+  margin-bottom: 35px;
+}
+
+.portfolio-content .card .photo {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.portfolio-content .card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.portfolio-content .card:hover .photo img {
+  transform: scale(1.2);
+}
+
+.portfolio-content .card .info {
+  width: 100%;
+  padding: 15px;
+}
+
+.portfolio-content .card .info h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #4e4e4e;
+}
+
+.portfolio-content .card .info .category {
+  color: #0078ff;
+}
+
+/* blog section styling */
+.blog-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blog-content .card {
+  width: 340px;
+  box-shadow: 0px 13 8px -10px rgb(0 0 0 / 10%);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.125);
+}
+
+.blog-content .card .photo {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.blog-content .card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-content .card .info {
+  width: 100%;
+  padding: 30px 20px 20px 20px;
+  position: relative;
+}
+
+.blog-content .card .info h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #4e4e4e;
+}
+
+.blog-content .card .info .category {
+  position: absolute;
+  left: 50%;
+  top: -14px;
+  transform: translate(-50px);
+  border-radius: 5px;
+  background: #0078ff;
+  color: white;
+  padding: 5px 10px;
+  z-index: 105;
+}
+
+.blog-content .card .info p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.blog-content .card .author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.blog-content .card .author .name {
+  display: flex;
+  align-items: center;
+}
+
+.blog-content .card .author .name img {
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* contact section styling */
+.contact {
+  position: relative;
+  color: white;
+  width: 100%;
+  background: url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg)
+    center center/cover no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+  padding-bottom: 30px;
+}
+
+.contact .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #0078ff;
+  opacity: 0.7;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.contact .contact-content {
+  background: white;
+  color: black;
+  z-index: 100;
+  width: 100%;
+  padding: 2.5rem;
+  display: flex;
+}
+
+.contact .contact-content .heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.contact .contact-content .line {
+  margin: 0;
+  width: 100px;
+  height: 4px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.contact .contact-content .message {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.contact .contact-content .message .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact .contact-content .message .field input,
+.contact .contact-content .message .field textarea {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #888;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.contact .contact-content .message .field textarea {
+  height: 100px;
+  padding-top: 5px;
+}
+
+.contact .contact-content .message button {
+  padding: 15px 25px;
+  background: #0078ff;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.contact .contact-content .gettouch {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.contact .contact-content .gettouch p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.contact .contact-content .gettouch .info {
+  margin-bottom: 15px;
+}
+
+.contact .contact-content .gettouch .info i {
+  font-size: 18px;
+  color: #0078ff;
+  margin-right: 15px;
+}
+
+.contact .contact-content .gettouch .social {
+  width: 100%;
+}
+
+.contact .contact-content .gettouch .social i {
+  width: 45px;
+  font-size: 25px;
+  color: white;
+  background: #444;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 5px 0 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.contact .contact-content .gettouch .social i:hover {
+  background: #0078ff;
+}
+
+.contact .footer {
+  margin-top: 35px;
+
+  padding: 25px 0;
+  background: #0062d3;
+}
+
+.contact .footer p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact .footer p a {
+  text-transform: none;
+  color: white;
 }

@@ -54,3 +54,21 @@ counters.forEach(counter => {
 	updateCount();
 });
 
+
+//scroll to top 
+
+function scrolltoTop(){
+    document.documentElement.scrollTop = 0;
+}
+
+// menu toggle bar
+function menu(){
+    let menu = document.getElementById("menu");
+    let menubar = document.querySelector(".menu-btn i");
+
+    menu.classList.toggle("active");
+    menubar.classList.toggle("active");
+}
+
+//
+
