@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* var grade =64;
 
 if (grade < 55 ){
@@ -109,3 +110,8 @@ function getHexColor(color){
 }
 
 console.log(getHexColor("red"));
+=======
+var suad = 10;
+
+console.log(suad)
+>>>>>>> 9e1cb669920c34a89048c12671ff8b8388dd2221
