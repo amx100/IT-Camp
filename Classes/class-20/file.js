@@ -39,3 +39,4 @@ console.log(greetings);
 var a = (false && true) || ("false" || "true")
 
 console.log(a);
+//comment
