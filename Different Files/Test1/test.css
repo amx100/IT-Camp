@@ -1,0 +1,139 @@
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .logo a {
+    color: #514dec;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+  
+  #navbar-menu {
+    text-align: end;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  #navbar ul li a {
+    font-size: 19.5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(21 21 21);
+  }
+  
+  .picture {
+    position: relative;
+  
+    padding-left: 700px;
+  }
+  
+  .navbar-menu li a {
+    margin-left: 170px;
+    padding: 15px 40px;
+    margin-left: 160px;
+    background: #514dec;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    color: #fff;
+    padding: 25px 0;
+    background: #ebebf3;
+  }
+  
+  footer p {
+    padding-left: 20px;
+    color: black;
+  }
+  
+  .credits a {
+    padding-left: 20px;
+  }
+  
+  .credits span {
+    color: black;
+  }
+  
+  .social {
+    width: 300px;
+    padding-left: 1350px;
+  }
+  
+  footer .copyright {
+    margin-bottom: 0.3rem;
+  }
+  footer .credits {
+    margin-bottom: 0;
+  }
+  footer .credits a {
+    color: #fff;
+  }
+  
+  .copyright-box .social i {
+    padding-left: 90px;
+    width: 45px;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 5px 0 0;
+    cursor: pointer;
+  
+    border-radius: 50%;
+  }
+  
+  .text-box h3 {
+    position: relative;
+    padding-top: 180px;
+    padding-left: 170px;
+    color: #514dec;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .text-box .textwithicons p {
+    padding-left: 170px;
+  }
+  
+  .text-box .textwithicons .one {
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #514dec;
+    color: white;
+    border: 0;
+    margin-left: 170px;
+  }
+  
+  .text-box .textwithicons .two {
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #514dec;
+    color: #514dec;
+  }
+  
+  .textcontent {
+    display: flex;
+    width: 50%;
+  }

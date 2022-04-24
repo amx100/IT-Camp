@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevFolio</title>
+
+    <!-- typing animation-typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/582b040d81.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar" id="navbar">
+      <div class="logo">
+        <a href="#home">DevFolio</a>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="#home" onclick="menu()">Home</a></li>
+        <li><a href="#about" onclick="menu()">About</a></li>
+        <li><a href="#services" onclick="menu()">Services</a></li>
+        <li><a href="#portfolio" onclick="menu()">PortFolio</a></li>
+        <li><a href="#blog" onclick="menu()">Blog</a></li>
+        <li><a href="#contact" onclick="menu()">Contact</a></li>
+      </ul>
+      <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- scroll to top button -->
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+    <!-- scroll to top button end -->
+
+    <!-- home section start here -->
+    <div class="home" id="home">
+      <div class="home-content">
+        <h1 class="name">I am Ahmed Susterac</h1>
+        <p><span class="typing"></span></p>
+      </div>
+    </div>
+
+    <!-- about section  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="info">
+            <div class="personal">
+              <div class="photo">
+                <img
+                  src="https://avatars.githubusercontent.com/u/99550682?v=4" width="150px" height="150px"
+                  alt=""
+                />
+              </div>
+              <div class="name">
+                <p><span>Name:</span> Ahmed Susterac</p>
+                <p><span>Profile:</span> Full Stack Developer</p>
+                <p><span>Email:</span> amx281@gmail.com</p>
+                <p><span>Phone:</span> +381 62 150/8636</p>
+              </div>
+            </div>
+            <div class="skills">
+              <h4>Skills</h4>
+              <div class="skill">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="progress-line"><span class="html"></span></div>
+              <div class="skill">
+                <span>CSS3</span>
+                <span>85%</span>
+              </div>
+              <div class="progress-line"><span class="css"></span></div>
+              <div class="skill">
+                <span>PHP</span>
+                <span>50%</span>
+              </div>
+              <div class="progress-line"><span class="php"></span></div>
+              <div class="skill">
+                <span>JAVASCRIPT</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-line"><span class="javascript"></span></div>
+            </div>
+          </div>
+          <div class="aboutme">
+            <h5>About me</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+              ipsa rerum aliquam, sit quam id. Quisquam, tempora exercitationem
+              ut porro rem dolores temporibus aperiam incidunt consectetur.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+              ipsa rerum aliquam, sit quam id. Quisquam, tempora exercitationem
+              ut porro rem dolores temporibus aperiam incidunt consectetur.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+              ipsa rerum aliquam, sit quam id. Quisquam, tempora exercitationem
+              ut porro rem dolores temporibus aperiam incidunt consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section  end -->
+
+    <!--    service-section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h3 class="title">Services</h3>
+        <div class="line"></div>
+        <div class="services-content">
+          <div class="card">
+            <div class="card-content">
+              <span class="circle"><i class="fa-solid fa-briefcase"></i></span>
+              <div class="card-title">WEB DESIGN</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <span class="circle"><i class="fa-solid fa-list-check"></i></span>
+              <div class="card-title">WEB DEVELOPMENT</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <span class="circle"><i class="fa-solid fa-signal"></i></span>
+              <div class="card-title">PHOTOGRAPHY</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <span class="circle"><i class="fa-solid fa-binoculars"></i></span>
+              <div class="card-title">RESPONSIVE DESIGN</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <span class="circle"> <i class="fa-solid fa-sun"></i></span>
+
+              <div class="card-title">GRAPHIC DESIGN</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <span class="circle"
+                ><i class="fa-solid fa-calendar-week"></i
+              ></span>
+              <div class="card-title">MARKETING</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--    service-section end -->
+
+    <!--     counter section -->
+    <section class="counters">
+      <div class="container-c">
+        <div class="content-c">
+          <i class="fa-solid fa-check"></i>
+          <div class="counter" data-target="450">0</div>
+          <p>WORKS COMPLETED</p>
+        </div>
+
+        <div class="content-c">
+          <i class="fa-solid fa-book"></i>
+          <div class="counter" data-target="25">0</div>
+          <p>WORKS COMPLETED</p>
+        </div>
+
+        <div class="content-c">
+          <i class="fa-solid fa-user-group"></i>
+          <div class="counter" data-target="550">0</div>
+          <p>WORKS COMPLETED</p>
+        </div>
+
+        <div class="content-c">
+          <i class="fa-solid fa-award"></i>
+          <div class="counter" data-target="48">0</div>
+          <p>WORKS COMPLETED</p>
+        </div>
+      </div>
+    </section>
+    <!--  counter section end -->
+
+    <!--  portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h3 class="title">Portfolio</h3>
+        <p
+          style="width: 100%; text-align: center; color: gray; font-weight: 500"
+        >
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+        <div class="line"></div>
+        <div class="portfolio-content">
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>Lorem impsum dolor</h3>
+                <p>
+                  <span class="category">Web Design</span>
+                  <!-- dodaj <i> za sat -->
+                  / 18 Sep. 2018
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>Loreda Cuno Nere</h3>
+                <p>
+                  <span class="category">Web Design</span>
+                  <!-- dodaj <i> -->
+                  / 18 Sep. 2018
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>Mavrito Lana Dere</h3>
+                <p>
+                  <span class="category">Web Design</span>
+                  <!-- dodaj <i> -->
+                  / 18 Sep. 2018
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-4.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>Bindo Laro Cado</h3>
+                <p>
+                  <span class="category">Web Design</span>
+                  <!-- dodaj <i> -->
+                  / 18 Sep. 2018
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-5.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>Studio Lena Mado</h3>
+                <p>
+                  <span class="category">Web Design</span>
+                  <!-- dodaj <i> -->
+                  / 18 Sep. 2018
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-6.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>Studio Big Bang</h3>
+                <p>
+                  <span class="category">Web Design</span>
+                  <!-- dodaj <i> -->
+                  / 18 Sep. 2017
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  portfolio section end -->
+
+    <section class="slidebar" id="slidebar">
+      <div class="slidebar-parent">
+        <div class="container">
+          <div class="slidebar-box">
+            <div class="slidebar-content">
+              <img
+                src="https://avatars.githubusercontent.com/u/99550682?v=4" width="200px" height="200px" style="border-radius: 50%;"
+                alt=""
+              />
+              <h3>Ahmed Susterac</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <div class="dot">
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <h3 class="title">Blog</h3>
+        <div class="line"></div>
+        <div class="blog-content">
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>See more ideas about Travel</h3>
+                <div class="category">Travel</div>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
+                  quos tenetur magni cumque corporis mollitia!
+                </p>
+              </div>
+              <div class="author">
+                <div class="name">
+                  <img
+                    src="https://avatars.githubusercontent.com/u/99550682?v=4"
+                    alt=""
+                  />
+                  <p>Ahmed Susterac</p>
+                </div>
+                <div class="date">
+                  <i class="fa fa fa-clock-o"> 10 min</i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>See more ideas about Travel</h3>
+                <div class="category">Web Design</div>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
+                  quos tenetur magni cumque corporis mollitia!
+                </p>
+              </div>
+              <div class="author">
+                <div class="name">
+                  <img
+                    src="https://avatars.githubusercontent.com/u/99550682?v=4"
+                    alt=""
+                  />
+                  <p>Ahmed Susterac</p>
+                </div>
+                <div class="date">
+                  <i class="fa fa fa-clock-o"> 10 min</i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="photo">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <h3>See more ideas about Travel</h3>
+                <div class="category">Web Design</div>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
+                  quos tenetur magni cumque corporis mollitia!
+                </p>
+              </div>
+              <div class="author">
+                <div class="name">
+                  <img
+                    src="https://avatars.githubusercontent.com/u/99550682?v=4"
+                    alt=""
+                  />
+                  <p>Ahmed Susterac</p>
+                </div>
+                <div class="date">
+                  <i class="fa fa fa-clock-o"> 10 min</i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+          <!-- blog section end -->
+
+          <!-- contact section -->
+          <section class="contact" id="contact">
+            <div class="overlay"></div>
+            <div class="container">
+              <div class="contact-content">
+                <div class="message">
+                  <form>
+                    <h3 class="heading">Send Message Us</h3>
+                    <div class="line"></div>
+                    <div class="field">
+                      <input type="text" placeholder="Your Name" />
+                    </div>
+                    <div class="field">
+                      <input type="email" placeholder="Your Email" />
+                    </div>
+                    <div class="field">
+                      <input type="text" placeholder="Subject" />
+                    </div>
+                    <div class="field">
+                      <textarea
+                        cols="30"
+                        rows="10"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                  </form>
+                </div>
+                <div class="gettouch">
+                  <h3 class="heading">Get in Touch</h3>
+                  <div class="line"></div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis dolorum dolorem soluta quidem expedita aperiam
+                    aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse
+                    laboriosam ratione nobis mollitia inventore?
+                  </p>
+                  <div class="info">
+                    <i class="fa fa-map-marker"></i>329 WASHINGTON ST BOSTON, MA
+                    02108
+                  </div>
+                  <div class="info">
+                    <i class="fa fa-phone"></i>(617) 557-0089
+                  </div>
+                  <div class="info">
+                    <i class="fa fa-envelope"></i>contact@example.com
+                  </div>
+                  <div class="social">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- contact section  end-->
+
+          <!-- footer section -->
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="copyright-box">
+                    <p class="copyright">
+                      &copy; Copyright <strong>DevFolio</strong>. All Rights
+                      Reserved
+                    </p>
+                    <div class="credits">
+                      Designed by
+                      <a
+                        href="https://bootstrapmade.com/"
+                        style="text-decoration: none"
+                        >BootstrapMade</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!--  footer section end -->
+
+          <script src="main.js"></script>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
