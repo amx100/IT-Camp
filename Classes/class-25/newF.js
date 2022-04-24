@@ -85,4 +85,6 @@ function range2 (a, b){
 
 console.log(range2(2, 5));
 
+/* 
+!this is important */
 
