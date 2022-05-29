@@ -49,6 +49,8 @@ const valid = (input, errorId) => {
   return valid;
 };
 
+//experiment
+
 const submitFunction = (event) => {
   event.preventDefault();
   const nameValid = valid(nameInput, "errorName");
