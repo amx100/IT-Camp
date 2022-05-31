@@ -50,7 +50,7 @@ const valid = (input, errorId) => {
 };
 
 //experiment
-
+//1
 const submitFunction = (event) => {
   event.preventDefault();
   const nameValid = valid(nameInput, "errorName");
