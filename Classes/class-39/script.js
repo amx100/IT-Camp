@@ -83,4 +83,6 @@ const getQuotes = async (page = 1) => {
   
   const button = document.getElementById("click");
   
+  //colorchanger
+
   button.addEventListener("click", clickable);
