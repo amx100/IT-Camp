@@ -5,7 +5,7 @@ function calculateBill() {
     const total = 100 * 1.13;
   
   }
-  console.log(`Your total is ${total}`);
+
 
   
 
