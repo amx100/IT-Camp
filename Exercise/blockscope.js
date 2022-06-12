@@ -1,10 +1,10 @@
-const ahmed = "abrakadabra";
-function primer(){
+// const ahmed = "abrakadabra";
+// function primer(){
 
-    const ahmed = 12;
-    myAhmed(ahmed);
+//     const ahmed = 12;
+//     myAhmed(ahmed);
     
 
-}
+// }
 
-console.log(myAhmed);
+// console.log(myAhmed);
