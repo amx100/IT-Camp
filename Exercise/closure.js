@@ -8,3 +8,4 @@ function outer() {
     inner();
   }
   outer();
+  /* finish */
